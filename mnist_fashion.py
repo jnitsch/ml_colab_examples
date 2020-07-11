@@ -107,7 +107,7 @@ def plot_value_array(i, predictions_array, true_label):
 
 # Visualize prediction of test image at index 0
 i = 0
-plt.figure(figsize=(1,2))
+plt.figure(figsize=(6,3))
 plt.subplot(1,2,1)
 plot_image(i, predictions[i], test_labels, test_images)
 plt.subplot(1,2,2)
